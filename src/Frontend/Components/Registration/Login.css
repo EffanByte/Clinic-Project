@@ -1,4 +1,4 @@
-body{
+.body{
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -9,13 +9,14 @@ body{
 	background: linear-gradient(to bottom, #0c3510, #2e7034, #1e3c21);
 }
 .main{
-	width: 350px;
-	height: 500px;
+	width: 450px;
+	height: 600px;
 	background: linear-gradient(to bottom, #0c3510, #2e7034, #1e3c21);
 	overflow: hidden;
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
 }
+
 #chk{
 	display: none;
 }
@@ -23,13 +24,14 @@ body{
 	position: relative;
 	width:100%;
 	height: 100%;
+	margin-bottom: 4rem;
 }
 label{
 	color: #fff;
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
-	margin: 60px;
+	margin: 3rem;
 	font-weight: bold;
 	cursor: pointer;
 	transition: .5s ease-in-out;
@@ -40,7 +42,7 @@ input{
 	background: #e0dede;
 	justify-content: center;
 	display: flex;
-	margin: 20px auto;
+	margin: 10px auto;
 	padding: 10px;
 	border: none;
 	outline: none;
@@ -49,7 +51,7 @@ input{
 button{
 	width: 60%;
 	height: 40px;
-	margin: 10px auto;
+	margin: 30px auto;
 	justify-content: center;
 	display: block;
 	color: #fff;
@@ -67,11 +69,15 @@ button:hover{
 	background: #12372A;
 }
 .login{
-	height: 460px;
+	height: 560px;
 	background: #eee;
 	border-radius: 60% / 10%;
 	transform: translateY(-180px);
 	transition: .8s ease-in-out;
+	-webkit-transition: .8s ease-in-out;
+	-moz-transition: .8s ease-in-out;
+	-ms-transition: .8s ease-in-out;
+	-o-transition: .8s ease-in-out;
 }
 .login label{
     padding-top: 1rem;
@@ -81,7 +87,11 @@ button:hover{
 }
 
 #chk:checked ~ .login{
-	transform: translateY(-500px);
+	transform: translateY(-600px);
+	-webkit-transform: translateY(-600px);
+	-moz-transform: translateY(-600px);
+	-ms-transform: translateY(-600px);
+	-o-transform: translateY(-600px);
 }
 #chk:checked ~ .login label{
 	transform: scale(1);	
@@ -89,3 +99,16 @@ button:hover{
 #chk:checked ~ .signup label{
 	transform: scale(.6);
 }
+
+.form-error {
+    font-size: .7rem;
+    color: #ffffff;
+	text-align: center;
+  }
+
+  .login-error{
+	color: red;
+  }
+  .inputContainer{
+	height: 60px;
+  }
