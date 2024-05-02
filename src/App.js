@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from './Frontend/Pages/adminHome/Home.jsx';
 import Patient from './Frontend/Pages/adminPatients/Patient.jsx';
 import Package from './Frontend/Pages/adminPackage/Package.jsx';
+import PatientData from './Frontend/Pages/adminPatientView/PatientData.jsx';
 function App() {
   return (
     <div className="app">
@@ -17,6 +18,7 @@ function App() {
     <Route path='/Admin/Dashboard' element={<Dashboard/>}></Route>
     <Route path='/Admin/Patient' element={<Patient/>}></Route>
     <Route path='/Admin/Package' element={<Package/>}></Route>
+    <Route path='/Admin/Patient/Data' element={<PatientData/>}></Route>
     </Routes>
     </BrowserRouter>
     </div>

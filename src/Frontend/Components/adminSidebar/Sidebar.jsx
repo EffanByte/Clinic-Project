@@ -3,14 +3,14 @@ import './Sidebar.css'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Inventory2Icon from '@mui/icons-material/Inventory2';
-// import CardTravelIcon from '@mui/icons-material/CardTravel';
-// import LocalShippingIcon from '@mui/icons-material/LocalShipping';
-// import InsertChartIcon from '@mui/icons-material/InsertChart';
+import CardTravelIcon from '@mui/icons-material/CardTravel';
 import SettingsIcon from '@mui/icons-material/Settings';
-// import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-// import PsychologyIcon from '@mui/icons-material/Psychology';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import LogoutIcon from '@mui/icons-material/Logout';
+// import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+// import InsertChartIcon from '@mui/icons-material/InsertChart';
+// import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+// import PsychologyIcon from '@mui/icons-material/Psychology';
 import { Link } from "react-router-dom";
 function Sidebar() {
   return (
@@ -49,11 +49,13 @@ function Sidebar() {
             </li>
           </Link>
 
-          {/* <li>
-            <CardTravelIcon className='icon'/>
-            <span>Order</span>
-          </li>
+          <Link to="/Admin/Patient/Data" style={{ textDecoration: "none" }}>
           <li>
+            <CardTravelIcon className='icon'/>
+            <span>Patients Data</span>
+          </li>
+          </Link>
+          {/* <li>
             <LocalShippingIcon className='icon'/>
             <span>Delivery</span>
           </li> */}
