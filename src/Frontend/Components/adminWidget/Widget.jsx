@@ -75,7 +75,7 @@ function Widget({type}) {
     
         case 'totalpatient':
             data = {
-                title: "TOTAL PATIENTS",
+                title: "Today's PATIENTS",
                 isMoney : true,
                 link: "View details",
                 icon: <AccountBalanceIcon className='icon' style={{
@@ -86,7 +86,7 @@ function Widget({type}) {
             break;
         case 'femalepatient':
             data = {
-                title: "TOTAL FEMALE PATIENTS",
+                title: "Today's Female Patients",
                 isMoney : true,
                 link: "View details",
                 icon: <AccountBalanceIcon className='icon' style={{
@@ -97,7 +97,29 @@ function Widget({type}) {
             break;
         case 'malepatient':
             data = {
-                title: "TOTAL MALE PATIENTS",
+                title: "Today's Male Patients",
+                isMoney : true,
+                link: "View details",
+                icon: <AccountBalanceIcon className='icon' style={{
+                    backgroundColor: "rgb(219, 87, 182)",
+                    color: "rgb(102, 10, 76)"
+                }}/>,
+            };
+            break;
+        case 'toppackage':
+            data = {
+                title: "Best Package",
+                isMoney : true,
+                link: "View details",
+                icon: <AccountBalanceIcon className='icon' style={{
+                    backgroundColor: "rgb(219, 87, 182)",
+                    color: "rgb(102, 10, 76)"
+                }}/>,
+            };
+            break;
+        case 'totalappointment':
+            data = {
+                title: "Total Appointment",
                 isMoney : true,
                 link: "View details",
                 icon: <AccountBalanceIcon className='icon' style={{

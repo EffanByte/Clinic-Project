@@ -1,8 +1,8 @@
 .sideBar {
   flex: 1;
   border-right: 0.5px solid rgb(128, 128, 128);
-  height: 100vh;
-  background: white;
+  min-height: 100vh;
+  background: #f2f3f4;
 }
 .top {
   height: 50px;
