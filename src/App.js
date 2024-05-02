@@ -1,8 +1,8 @@
 import './App.css';
 import BlogsDisplay from './Frontend/Pages/Blogs/BlogsDisplay.jsx';
 import Blog from './Frontend/Pages/Blogs/Blog.jsx';
-import Blogs from './Frontend/Pages/Blogs/Blogs.jsx';
 import Home from './Frontend/Pages/Home/Home.jsx';
+import PatientHistory from './Frontend/Pages/PatientHistory/PatientHistory.jsx';
 import Login from './Frontend/Pages/Login/Login.jsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import Dashboard from './Frontend/Pages/adminHome/Home.jsx';
@@ -18,6 +18,7 @@ function App() {
     <Route path='/Blogs' element={<BlogsDisplay/>}></Route>
     <Route path='/Blog' element={<Blog/>}></Route>
     <Route path='/Login' element={<Login/>}></Route>
+    <Route path='/History' element={<PatientHistory/>}></Route>
     <Route path='/Admin/Dashboard' element={<Dashboard/>}></Route>
     <Route path='/Admin/Patient' element={<Patient/>}></Route>
     <Route path='/Admin/Package' element={<Package/>}></Route>

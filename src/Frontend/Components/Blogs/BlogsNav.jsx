@@ -9,7 +9,7 @@ const BlogNav = () => {
 	return (
 		<div>
 			<Navbar style={{
-				backgroundColor:"#223127"
+				backgroundColor:"#1e3c21" 
 			}}>
 				<img
 			src={logo}
