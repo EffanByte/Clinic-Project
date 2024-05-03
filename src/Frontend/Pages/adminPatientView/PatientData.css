@@ -1,8 +1,14 @@
+*{
+  margin: 0;
+
+}
 .container{
     display: flex;
-    /* background: violet; */
+    padding: 0;
     max-width: 100%;
   }
   .homeContainer {
-    flex: 6;
+    flex: 9;
+    /* background: violet; */
   }
+

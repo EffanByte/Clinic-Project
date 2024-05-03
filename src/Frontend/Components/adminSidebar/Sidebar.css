@@ -2,6 +2,7 @@
   flex: 1;
   border-right: 0.5px solid rgb(128, 128, 128);
   min-height: 100vh;
+  min-width: 175px;
   background: #f2f3f4;
 }
 .top {
