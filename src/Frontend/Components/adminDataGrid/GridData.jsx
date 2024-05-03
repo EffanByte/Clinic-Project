@@ -71,6 +71,7 @@ const rows = [
 
 export default function GridData() {
   return (
+    <div className='containerbox'>
     <Box sx={{ height: '100%', width: '100%' }}>
       <DataGrid
         rows={rows}
@@ -85,5 +86,6 @@ export default function GridData() {
         pageSizeOptions={[10]}
       />
     </Box>
+    </div>
   );
 }

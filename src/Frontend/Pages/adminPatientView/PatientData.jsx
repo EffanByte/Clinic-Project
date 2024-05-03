@@ -11,7 +11,7 @@ function PatientData() {
 
 <div className="homeContainer">
   <Navbar />
-  <div className="widgets">
+  <div className="grid">
   <GridData/>
     {/* <Widget type="patient"/>
     <Widget type="income"/>

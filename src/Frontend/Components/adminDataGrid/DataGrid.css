@@ -5,9 +5,9 @@
   text-align: center;
 }
 
-.center-cell {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.containerbox
+  {
+    padding: 10px;
+    overflow: scroll;
+    min-height: 550px;
   }
-  
