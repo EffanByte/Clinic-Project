@@ -11,9 +11,9 @@ const BlogNav = () => {
 			<Navbar style={{
 				backgroundColor:"#1e3c21" 
 			}}>
-				<img
+				<img className="h-8"
 			src={logo}
-			height='30'
+			// height='30'
 			alt=''
 			loading='lazy'
 			/>
