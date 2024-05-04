@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
 
+import mongoose from 'mongoose';
 // Define the schema for payments
 const paymentSchema = new mongoose.Schema({
     // patient: { 
@@ -25,5 +25,9 @@ const paymentSchema = new mongoose.Schema({
         required: true 
     }
 });
-const Payment = mongoose.model('Payment', paymentSchema);
-module.exports = Payment;
+
+// patientCNIC, amount,date, method
+
+// Create a model for payments
+const payment = mongoose.model('payment', paymentSchema);
+export default payment;

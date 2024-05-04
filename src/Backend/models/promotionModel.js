@@ -1,6 +1,8 @@
-const mongoose = require("mongoose");
-const { Schema } = mongoose;
-const promotionSchema = new Schema({
+
+import mongoose from 'mongoose';
+import payment from './paymentModel';
+
+const promotionSchema = new mongoose.Schema({
     // doctor: { type: mongoose.Schema.Types.ObjectId, ref: 'Doctor', required: true },
     title:
     {
@@ -26,6 +28,9 @@ const promotionSchema = new Schema({
     }
 
 });
-const promotion = mongoose.model("Promotion", promotionSchema);
-module.exports = promotion;
 
+// title,description,startDate,endDate,discount
+
+// Create a model for promotion
+const promotion = mongoose.model("promotion", promotionSchema);
+export default payment;
