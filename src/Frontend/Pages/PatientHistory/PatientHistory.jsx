@@ -1,13 +1,11 @@
 import React from 'react'
-import BlogsNav from '../../Components/Blogs/BlogsNav'
-import HistoryTable from '../../Components/PatientHistory/HistoryTable'
+import Navbar from '../../Components/Navbar/Navbar.jsx'
 
 function PatientHistory() {
   return (
     <div>
       <div style={{backgroundColor: "aliceblue"}}>
-        <BlogsNav />
-        <HistoryTable />
+        <Navbar />
       </div>
     </div>
   )
