@@ -1,0 +1,24 @@
+.features{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    grid: 50px;
+}
+.plans{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    grid: 50px;
+    background: pink;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}

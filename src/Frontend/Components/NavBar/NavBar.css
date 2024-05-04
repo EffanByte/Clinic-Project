@@ -1,0 +1,46 @@
+.navTop{
+    background: #153448;
+}
+/* NavBar.css */
+
+.nav-pills .nav-link {
+      background: #153448;
+    color: white; /* Text color for the nav links */
+    text-decoration: none; /* Remove underline by default */
+    background: #153448;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    /* padding: 0; */
+  }
+  
+  .nav-pills .nav-link.active {
+    color: white; /* Text color for active nav link */
+    text-decoration: underline; /* Underline for active nav link */
+    background: #153448;
+  }
+  
+  .nav-pills .nav-link:hover {
+    text-decoration: none; /* Remove hover underline effect */
+  }
+  .nav-item {
+    padding: 0;
+    margin: 0;
+    background: #153448;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+  .nav-pills .nav-item .nav-link:hover  {
+    text-decoration: none; /* Remove hover underline effect */
+    background: #153448;
+    text-decoration: underline;     
+  
+   
+  }
+
+ 
