@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar.jsx'
+import Navbar from '../../Components/NavBar/Navbar.jsx'
 import Card from '../../Components/Blogs/BlogPostCard.jsx'
 
 function Blogs() {

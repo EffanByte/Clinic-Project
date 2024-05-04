@@ -40,12 +40,13 @@ function HomeFeatures() {
         <div style={{ width: '18rem' }} className="card m-5 mt-auto">
         <img className="card-img-top" src={card.imgSrc} alt="Card image cap" />
         {/* <div className="card-body"> */}
-          <h5 className="card-title mx-auto my-5">{card.title}</h5>
+          <h5 className="card-title my-5">{card.title}</h5>
           {/* <p className="card-text">{card.description}</p> */}
         {/* </div> */}
         {card.listItems.map((item)=>(
         <ul className="list-group list-group-flush">
           <li className="list-group-item">{item}</li>
+          
         </ul>
         ))}
         <div className="card-body">

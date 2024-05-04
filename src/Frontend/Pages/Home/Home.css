@@ -1,11 +1,12 @@
 .features{
     min-width: 100vw;
     min-height: 100vh;
-    display: flex;
+    display: flex; 
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     grid: 50px;
+    /* background: pink; */
 }
 .plans{
     min-width: 100vw;
@@ -15,10 +16,6 @@
     align-items: center;
     flex-wrap: wrap;
     grid: 50px;
-    background: pink;
+    /* background: pink; */
 }
 
-section{
-    display: flex;
-    flex-direction: row;
-}

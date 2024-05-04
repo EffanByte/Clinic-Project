@@ -1,10 +1,9 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar.jsx'
-
+// import NavBar from '../../Components/NavBar/Navbar';
 function Blog() {
   return (
     <div className="bg-aliceblue">
-      <Navbar />
+      {/* <NavBar /> */}
       <img className='w-full h-25' src="https://img.freepik.com/free-vector/fitness-nutrition-social-media-cover-template_23-2149717274.jpg?w=1380&t=st=1714754226~exp=1714754826~hmac=cb4834d0827d1d9e668c1f36e8c91daf3b3f474bb25652e96148917b6bc470ff" alt="" />
       <div className="max-w-screen mx-auto px-4">
         <h1 className='font-sans text-center px-4 sm:px-0'>Nutritionist's Blog Title Will be Placed Here</h1>
