@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import HomeSlider from '../../Components/HomeSlider/HomeSlider';
-import NavBar from '../../Components/NavBar/NavBar';
+import NavBar from '../../Components/NavBar/Navbar.jsx';
 import HomeFeatures from '../../Components/HomeFeatures/HomeFeatures';
 import HomePricing from '../../Components/HomePricing/HomePricing';
 import Footer from '../../Components/Footer/Footer';
